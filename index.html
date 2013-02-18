@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>playing with bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- Le styles -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <style type="text/css">
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+            .carousel-control {
+                margin-top: 20px;
+            }
+            .newsletter {
+              background-color: lightblue;
+              text-align: center;
+            }
+        </style>
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="../assets/js/html5shiv.js"></script>
+        <![endif]-->
+        <!-- Fav and touch icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png"> -->
+    </head>
+    
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+
+                    </button>
+                    <a class="brand" href="#">Andrew Wright</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Something else here</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Nav header</li>
+                                    <li>
+                                        <a href="#">Separated link</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">One more separated link</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-search pull-right">
+                            <input class="search-query" type="text" placeholder="Search">
+                        </form>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="hero-unit">
+                <div class="row-fluid">
+                    <div class="span6">
+                         <h1>Hello, world!</h1>
+
+                        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="span6">
+                        <!-- Carousel -->
+                        <div id="myCarousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <img src="img/alex1.jpeg">
+                                </div>
+                                <div class="item">
+                                    <img src="img/alex2.jpeg">
+                                </div>
+                                <div class="item">
+                                    <img src="img/alex3.jpeg">
+                                </div>
+                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- warning -->
+              <div class="alert alert-block">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4>Warning! DANGER WILL ROBINSON DANGER!</h4>
+              </div>
+            <!-- 2 Column Layout -->
+            <div class="row-fluid">
+                <div class="span10">
+                    <!--Body content-->
+                     <h1>This is what we do</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lorem magna, suscipit eget pretium eget, tincidunt vel lacus. Donec venenatis pellentesque varius. Etiam malesuada ullamcorper libero a dapibus. Quisque porttitor congue sem, in pellentesque
+                        diam tempor at. Ut tortor magna, faucibus eget viverra non, mollis a diam. Mauris porttitor pulvinar elementum. Proin vel elit libero. Nulla rutrum consequat nibh sed mollis. Mauris nec ligula id dui porttitor luctus. Aenean mollis, massa eget ornare
+                        imperdiet, justo enim laoreet nisi, sed ornare ante felis at eros. Nulla non nulla ipsum. Ut eleifend felis nec arcu feugiat dignissim.Nunc nibh sem, tincidunt id pulvinar in, scelerisque id turpis. Morbi viverra tristique purus, vitae tempus velit egestas
+                        non. Mauris odio orci, lobortis quis luctus ac, mollis id ipsum. Nullam venenatis, nibh ut malesuada mattis, sem arcu tincidunt arcu, eu convallis dolor felis vitae orci. Curabitur consectetur pulvinar varius. Quisque aliquet commodo ipsum sit amet bibendum.
+                        Aliquam non enim id risus rhoncus malesuada eget eget elit. Curabitur consectetur pulvinar varius. Quisque aliquet commodo ipsum sit amet bibendum. Aliquam non enim id risus rhoncus malesuada eget eget elit. Curabitur consectetur pulvinar varius. Quisque
+                        aliquet commodo ipsum sit amet bibendum. Aliquam non enim id risus rhoncus malesuada eget eget elit.</p>
+                    <!-- Button to trigger modal -->
+                    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+                    <!-- Modal -->
+                    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                             <h3 id="myModalLabel">Modal header</h3>
+
+                        </div>
+                        <div class="modal-body">
+                            <p>One fine body…</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                            <button class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span2">
+                    <!--Sidebar content-->
+                     <h1>Sidebar</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lorem magna, suscipit eget pretium eget, tincidunt vel lacus. Donec venenatis pellentesque varius. Etiam malesuada ullamcorper libero a dapibus.</p>
+                    <!-- Popover Button -->
+                    <a href="#" id='popButton' class="btn" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="" data-original-title="Popover on left">Popover on left</a>
+                </div>
+            </div>
+            <!-- Example row of columns -->
+            <div class="row-fluid">
+                <div class="span4">
+                     <h2>Heading</h2>
+
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                    <p>
+                        <a class="btn" href="#">View details &raquo;</a>
+                    </p>
+                </div>
+                <div class="span4">
+                     <h2>Heading</h2>
+
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                    <p>
+                        <a class="btn" href="#">View details &raquo;</a>
+                    </p>
+                </div>
+                <div class="span4">
+                     <h2>Heading</h2>
+
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p>
+                        <a class="btn" href="#">View details &raquo;</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Newsletter Signup -->
+            <div class="row-fluid newsletter">
+              <div class="span12">
+                <p>Sign up for our newsletter</p>
+                <form class="span6 offset3 form-horizontal">
+                  <div class="control-group">
+                      <label class="control-label" for="inputIcon">Email address</label>
+                    <div class="controls">
+                      <div class="input-prepend">
+                        <span class="add-on"><i class="icon-envelope"></i></span>
+                        <input class="" id="inputIcon" type="text">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+             </div>
+            </div>
+            <hr>
+            <footer>
+                <p>&copy; Company 2013</p>
+            </footer>
+        </div>
+        <!-- /container -->
+        <!-- Le javascript==================================================- ->
+    <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $('#popButton').popover();
+        </script>
+    </body>
+
+</html>
